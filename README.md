@@ -29,7 +29,7 @@ The project develops a ML solution by implementing multiple algorithms to solve 
 df.drop(df[df['Age'] > 100].index, inplace = True)</p><br>
 
 <p><b>#&nbspPrint unique number</b><p>
-df['Age'].unique()
+df['Age'].unique()<br>
 [37, 44, 32, 31, 33, 35, 39, 42, 23, 29, 36, 27, 46, 41, 34, 30, 40, 38, 50, 24, 18, 28, 26, 22, 19, 25, 45, 21, 43, 56, 60, 54, 55, 48, 20, 57, 58, 47, 62, 51, 65, 49,  5, 53, 61,  8, 11, 72])<br>
 
 <p><b>#&nbspHisplot figure</b><p>
@@ -37,7 +37,7 @@ df['Age'].unique()
 
 <p><b>#&nbspUnique data</b><p>
 df['Gender'].unique()<br>
-array(['Female', 'Male', 'Other'], dtype=object)
+array(['Female', 'Male', 'Other'], dtype=object)<br>
 
 <br>
 <img src="upload/gender_data.png"><br>
