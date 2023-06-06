@@ -54,25 +54,25 @@ array(['Female', 'Male', 'Other'], dtype=object)
 <p><b>#heat map</b><p>
 <img src="upload/heatmap.png"><br>
 
-#accuracy of all ML algorithm
-LogisticRegression 0.7898089171974523
-KNeighborsClassifier 0.697452229299363
-DecisionTreeClassifier 0.7484076433121019
-RandomForestClassifier 0.802547770700637
-GradientBoostingClassifier 0.8057324840764332
-AdaBoostClassifier 0.7866242038216561
-XGBClassifier 0.7961783439490446
+<p><b>#accuracy of all ML algorithm</b><p>
+LogisticRegression 0.7898089171974523<br>
+KNeighborsClassifier 0.697452229299363<br>
+DecisionTreeClassifier 0.7484076433121019<br>
+RandomForestClassifier 0.802547770700637<br>
+GradientBoostingClassifier 0.8057324840764332<br>
+AdaBoostClassifier 0.7866242038216561<br>
+XGBClassifier 0.7961783439490446<br>
 
-#in figure
-<img src="upload/plotting_the_model_accuracies.png">
+<p><b>#in figure</b><p><br>
+<img src="upload/plotting_the_model_accuracies.png"><br>
 
-#selecting ML having high accuracy
+<p><b>#selecting ML having high accuracy</b><p>
 
-The Algorithm which gives maximum accuracy...
+The Algorithm which gives maximum accuracy...<br>
 GradientBoostingClassifier : 0.8057324840764332
 
-#confusion matrix of Gradient booster
-<img src="upload/confusion_matrix.png">
+<p><b>#confusion matrix of Gradient booster</b><p>
+<img src="upload/confusion_matrix.png"><br>
 
-#ROC curve
+<p><b>#ROC curve</b><p>
 <img src="upload/roc_curve.png">
