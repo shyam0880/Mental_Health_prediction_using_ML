@@ -1,22 +1,22 @@
 # Mental_Health_prediction_using_ML
 The project develops a ML solution by implementing multiple algorithms to solve a specific problem. Through rigorous evaluation, the project assesses algorithm performance considering accuracy, speed, and resource requirements. The best algorithm is selected based on optimal results, balancing efficiency and effectiveness.
 
-Data= GitHub\Mental_Health_prediction_using_ML\survey.csv
+<p>Data= survey.csv</p>
 
-###df.shape
-The dataset contains 1259 rows and 27 columns.
-
-#name of the column
+<b>#df.shape</b>
+<p>The dataset contains 1259 rows and 27 columns.</p>
+<br>
+<b>#name of the column</b>
 df.columns
-
-Index(['Timestamp', 'Age', 'Gender', 'Country', 'state', 'self_employed',
+<br>
+<p>Index(['Timestamp', 'Age', 'Gender', 'Country', 'state', 'self_employed',
        'family_history', 'treatment', 'work_interfere', 'no_employees',
        'remote_work', 'tech_company', 'benefits', 'care_options',
        'wellness_program', 'seek_help', 'anonymity', 'leave',
        'mental_health_consequence', 'phys_health_consequence', 'coworkers',
        'supervisor', 'mental_health_interview', 'phys_health_interview',
        'mental_vs_physical', 'obs_consequence', 'comments'],
-      dtype='object')
+      dtype='object')</p>
 
 # prints information about the DataFrame
 df.info()
@@ -111,12 +111,11 @@ for i in df_cat.columns:
 
 
 #Ploting image of attribute with it's data
-image.png
-.......
-
-
+<img src="upload/self_employed.png"><br>
 #boxplot of age attribute
-image.png
+<br>
+
+<img src="upload/plot_image.png">
 
 #filtering the age
 df.drop(df[df['Age'] < 0].index, inplace = True)
@@ -130,7 +129,7 @@ array([37, 44, 32, 31, 33, 35, 39, 42, 23, 29, 36, 27, 46, 41, 34, 30, 40,
        20, 57, 58, 47, 62, 51, 65, 49,  5, 53, 61,  8, 11, 72])
 
 #hisplot figure
-<img src="upload/self_employed.png">
+<img src="upload/bar_image.png">
 
 #unique data
 df['Gender'].unique()
