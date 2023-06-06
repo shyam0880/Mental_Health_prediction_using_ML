@@ -1,5 +1,7 @@
 # Mental_Health_prediction_using_ML
 The project develops a ML solution by implementing multiple algorithms to solve a specific problem. Through rigorous evaluation, the project assesses algorithm performance considering accuracy, speed, and resource requirements. The best algorithm is selected based on optimal results, balancing efficiency and effectiveness.
+---
+<U><h3 align="center">***If you are using github in  dark mood please make it lightmood, else you can't able to see the image data***</h3> <br></U>
 
 <p>Data= survey.csv</p>
 
