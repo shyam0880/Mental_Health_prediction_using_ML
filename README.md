@@ -156,7 +156,7 @@ Name: Gender, dtype: int64
 <img src="upload/self_employed_seeking_treatment.png">
 
 #heat map
-image
+<img src="upload/heatmap.png">
 
 #accuracy of all ML algorithm
 LogisticRegression 0.7898089171974523
@@ -168,7 +168,7 @@ AdaBoostClassifier 0.7866242038216561
 XGBClassifier 0.7961783439490446
 
 #in figure
-image
+<img src="upload/plotting_the_model_accuracies.png">
 
 #selecting ML having high accuracy
 
@@ -176,6 +176,7 @@ The Algorithm which gives maximum accuracy...
 GradientBoostingClassifier : 0.8057324840764332
 
 #confusion matrix of Gradient booster
-image
+<img src="upload/confusion_matrix.png">
 
 #ROC curve
+<img src="upload/roc_curve.png">
