@@ -36,11 +36,11 @@ df['Age'].unique()
 <img src="upload/bar_image.png"><br>
 
 <p><b>#unique data</b><p>
-df['Gender'].unique()
+df['Gender'].unique()<br>
 array(['Female', 'Male', 'Other'], dtype=object)
 
 <br>
-<img src="upload/gender_data"><br>
+<img src="upload/gender_data.png"><br>
 
 <p><b>#figure</b><p>
 <img src="upload/gender.png"><br>
