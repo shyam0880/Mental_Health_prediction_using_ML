@@ -130,7 +130,7 @@ array([37, 44, 32, 31, 33, 35, 39, 42, 23, 29, 36, 27, 46, 41, 34, 30, 40,
        20, 57, 58, 47, 62, 51, 65, 49,  5, 53, 61,  8, 11, 72])
 
 #hisplot figure
-image.png
+<img src="upload/self_employed.png">
 
 #unique data
 df['Gender'].unique()
@@ -147,12 +147,13 @@ Other      19
 Name: Gender, dtype: int64
 
 #figure
-image
+<img src="upload/gender.png">
 
-pie
+#pie
+<img src="upload/pie_chart.png">
 
 #figure of attribute like (self employed) with treatement
-image
+<img src="upload/self_employed_seeking_treatment.png">
 
 #heat map
 image
