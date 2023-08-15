@@ -4,7 +4,9 @@ The project develops a ML solution by implementing multiple algorithms to solve 
 <U><h3 align="center" >***If you are using GitHub in  a dark mood please make it light mood, else you can't able to see the image data***</h3></U>
 <br>
 
-### `Data= survey.csv`
+```bash
+  Data= survey.csv
+```
 
 <p>->The dataset contains 1259 rows and 27 columns.</p>
 
@@ -14,7 +16,10 @@ The project develops a ML solution by implementing multiple algorithms to solve 
  'supervisor', 'mental_health_interview', 'phys_health_interview','mental_vs_physical', 'obs_consequence', 'comments'</p>
  <p>(dtype='object')</p><br>
 
-### `df.nunique()`
+
+```bash
+  df.nunique()
+```
 <img  src="upload/unique.png">
 
 
@@ -31,15 +36,19 @@ The project develops a ML solution by implementing multiple algorithms to solve 
 
 ## Filtering the age
 
-### `df.drop(df[df['Age'] < 0].index, inplace = True)`
-### `df.drop(df[df['Age'] > 100].index, inplace = True)`
+```bash
+  df.drop(df[df['Age'] < 0].index, inplace = True)
+  df.drop(df[df['Age'] > 100].index, inplace = True)
+```
 
 <br>
 <br>
 
 ## Print unique number
- 
-### `df['Age'].unique()`
+
+```bash
+  df['Age'].unique()
+```
  
 ->   [37, 44, 32, 31, 33, 35, 39, 42, 23, 29, 36, 27, 46, 41, 34, 30, 40, 38, 50, 24, 18, 28, 26, 22, 19, 25, 45, 21, 43, 56, 60, 54, 55, 48, 20, 57, 58, 47, 62, 51, 65, 49,  5, 53, 61,  8, 11, 72])
 
@@ -50,11 +59,26 @@ The project develops a ML solution by implementing multiple algorithms to solve 
 <img src="upload/bar_image.png"><br>
 
 ## Unique data :
-### `df['Gender'].unique()`
+```bash
+  df['Gender'].unique()
+```
 -> array(['Female', 'Male', 'Other'], dtype=object)<br>
 
+### Attribute Option Count
+
+```python
+  df['Gender'].value_counts()
+```
+
+| Gender    | Value     |
+| :-------- | :-------  | 
+| Male    | 988     | 
+| Female  | 247     | 
+| Other   | 19      |
+
+`Name: Gender, dtype: int64`
+
 <br>
-<img src="upload/gender_data.png"><br>
 
 ## Figure :
 <img src="upload/gender.png"><br>
@@ -69,7 +93,7 @@ The project develops a ML solution by implementing multiple algorithms to solve 
 <img src="upload/heatmap.png"><br>
 
 ## Accuracy of all ML algorithm
- <ul>
+<!--<ul>
   <li><b>LogisticRegression : </b> 0.7898089171974523<br></li>
   <li><b>KNeighborsClassifier : </b> 0.697452229299363<br></li>
   <li><b>DecisionTreeClassifier : </b> 0.7484076433121019<br></li>
@@ -77,7 +101,16 @@ The project develops a ML solution by implementing multiple algorithms to solve 
   <li><b>GradientBoostingClassifier : </b> 0.8057324840764332<br></li>
   <li><b>AdaBoostClassifier : </b> 0.7866242038216561<br></li>
   <li><b>XGBClassifier : </b> 0.7961783439490446<br></li>
- </ul>
+ </ul>-->
+| Algorithm                   | Accuracy Score        |
+| :--------                   | :-------              | 
+| LogisticRegression          | 0.7898089171974523    | 
+| KNeighborsClassifier        | 0.697452229299363     | 
+| DecisionTreeClassifier      | 0.7484076433121019    |
+| RandomForestClassifier      | 0.802547770700637     |
+| GradientBoostingClassifier  | 0.8057324840764332    |
+| AdaBoostClassifier          | 0.7866242038216561    |
+| XGBClassifier               | 0.7961783439490446    |
  
 <br>
 <br>
